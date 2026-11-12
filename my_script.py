@@ -1,6 +1,7 @@
 
 import pandas as pd
 import streamlit as st 
+st.set_page_config(page_title="netratrivedi-info450") 
 import plotly.express as px 
 
 df=pd.read_csv("Advertising_F.csv")
